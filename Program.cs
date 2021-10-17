@@ -43,15 +43,15 @@ namespace AutoClick
             }
             WriteLine($"設定値はy={y}です");
 
-            WriteLine("文字列を入力してください");
-            //WriteLine("ペーストしたい文字列をクリップボードにコピーしてください");
-            string msg = ReadLine();
+            //WriteLine("文字列を入力してください");
+            WriteLine("ペーストしたい文字列をクリップボードにコピーしてください");
+            /*string msg = ReadLine();
             if (!String.IsNullOrWhiteSpace(msg))
             {
                 message = msg;
             }
             WriteLine($"設定値はmessage=\"{message}\"です");
-            Clipboard.SetText(message);
+            Clipboard.SetText(message);*/
 
             WriteLine("時間分秒をhhMMssの形で入力してください");
             string time = ReadLine();
